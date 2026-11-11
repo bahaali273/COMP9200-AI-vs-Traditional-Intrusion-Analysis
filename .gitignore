@@ -218,3 +218,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# UNSW-NB15 dataset files: never commit (licence: academic use; download from UNSW)
+UNSW_NB15_*.csv
+UNSW-NB15_*.csv
+NUSW-NB15_*.csv
+*.pcap

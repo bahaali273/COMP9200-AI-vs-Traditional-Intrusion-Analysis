@@ -1,0 +1,3 @@
+2026-11-09T14:32:07 Get-ChildItem C:\unsw-runs\run2 -Force
+2026-11-09T14:32:24 python analysis.py
+2026-11-09T14:32:38 python category summary

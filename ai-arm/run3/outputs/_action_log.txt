@@ -1,0 +1,2 @@
+2026-11-09T14:32:15.0685885-07:00 Get-ChildItem (working folder listing)
+2026-11-09T14:32:36.3377519-07:00 C:\unsw-runs\env\Scripts\python.exe analysis.py > analysis_output.txt

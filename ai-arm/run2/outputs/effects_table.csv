@@ -1,0 +1,36 @@
+,,train,test
+dur,median_normal,0.0386025,0.2228405
+dur,median_malicious,9e-06,1e-05
+dur,median_diff,-0.038593499999999996,-0.2228305
+dur,median_diff_ci95,"[-0.0397427, -0.0371509125]","[-0.226675925, -0.2040451375]"
+dur,mwu_p,0.0,0.0
+dur,prob_mal_gt_normal,0.3576828042721517,0.32275252551148165
+dur,rank_biserial,-0.2846343914556966,-0.3544949489770367
+sbytes,median_normal,1470.0,974.0
+sbytes,median_malicious,200.0,200.0
+sbytes,median_diff,-1270.0,-774.0
+sbytes,median_diff_ci95,"[-1270.0, -1270.0]","[-778.0, -724.0]"
+sbytes,mwu_p,0.0,0.0
+sbytes,prob_mal_gt_normal,0.2933151180979594,0.30060807412459667
+sbytes,rank_biserial,-0.4133697638040812,-0.39878385175080666
+dbytes,median_normal,1112.0,354.0
+dbytes,median_malicious,0.0,0.0
+dbytes,median_diff,-1112.0,-354.0
+dbytes,median_diff_ci95,"[-1176.0, -1026.0]","[-354.0, -354.0]"
+dbytes,mwu_p,0.0,0.0
+dbytes,prob_mal_gt_normal,0.21327796398555401,0.26363648672496726
+dbytes,rank_biserial,-0.573444072028892,-0.4727270265500655
+spkts,median_normal,12.0,10.0
+spkts,median_malicious,2.0,2.0
+spkts,median_diff,-10.0,-8.0
+spkts,median_diff_ci95,"[-10.0, -10.0]","[-8.0, -8.0]"
+spkts,mwu_p,0.0,0.0
+spkts,prob_mal_gt_normal,0.2941408137037086,0.3041850056400705
+spkts,rank_biserial,-0.4117183725925828,-0.391629988719859
+dpkts,median_normal,10.0,8.0
+dpkts,median_malicious,0.0,0.0
+dpkts,median_diff,-10.0,-8.0
+dpkts,median_diff_ci95,"[-10.0, -10.0]","[-8.0, -8.0]"
+dpkts,mwu_p,0.0,0.0
+dpkts,prob_mal_gt_normal,0.217114833229988,0.262441699497521
+dpkts,rank_biserial,-0.5657703335400239,-0.475116601004958

@@ -1,0 +1,196 @@
+{
+  "env": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "pandas": "2.2.3",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "matplotlib": "3.10.3",
+    "os": "Windows-11"
+  },
+  "files": {
+    "UNSW_NB15_training-set.csv": {
+      "rows": 175341,
+      "cols": [
+        "id",
+        "dur",
+        "proto",
+        "service",
+        "state",
+        "spkts",
+        "dpkts",
+        "sbytes",
+        "dbytes",
+        "rate",
+        "sttl",
+        "dttl",
+        "sload",
+        "dload",
+        "sloss",
+        "dloss",
+        "sinpkt",
+        "dinpkt",
+        "sjit",
+        "djit",
+        "swin",
+        "stcpb",
+        "dtcpb",
+        "dwin",
+        "tcprtt",
+        "synack",
+        "ackdat",
+        "smean",
+        "dmean",
+        "trans_depth",
+        "response_body_len",
+        "ct_srv_src",
+        "ct_state_ttl",
+        "ct_dst_ltm",
+        "ct_src_dport_ltm",
+        "ct_dst_sport_ltm",
+        "ct_dst_src_ltm",
+        "is_ftp_login",
+        "ct_ftp_cmd",
+        "ct_flw_http_mthd",
+        "ct_src_ltm",
+        "ct_srv_dst",
+        "is_sm_ips_ports",
+        "attack_cat",
+        "label"
+      ]
+    },
+    "UNSW_NB15_testing-set.csv": {
+      "rows": 82332,
+      "cols": [
+        "id",
+        "dur",
+        "proto",
+        "service",
+        "state",
+        "spkts",
+        "dpkts",
+        "sbytes",
+        "dbytes",
+        "rate",
+        "sttl",
+        "dttl",
+        "sload",
+        "dload",
+        "sloss",
+        "dloss",
+        "sinpkt",
+        "dinpkt",
+        "sjit",
+        "djit",
+        "swin",
+        "stcpb",
+        "dtcpb",
+        "dwin",
+        "tcprtt",
+        "synack",
+        "ackdat",
+        "smean",
+        "dmean",
+        "trans_depth",
+        "response_body_len",
+        "ct_srv_src",
+        "ct_state_ttl",
+        "ct_dst_ltm",
+        "ct_src_dport_ltm",
+        "ct_dst_sport_ltm",
+        "ct_dst_src_ltm",
+        "is_ftp_login",
+        "ct_ftp_cmd",
+        "ct_flw_http_mthd",
+        "ct_src_ltm",
+        "ct_srv_dst",
+        "is_sm_ips_ports",
+        "attack_cat",
+        "label"
+      ]
+    }
+  },
+  "identified": {
+    "train": "UNSW_NB15_training-set.csv",
+    "test": "UNSW_NB15_testing-set.csv"
+  },
+  "qa": {
+    "train": {
+      "rows": 175341,
+      "label_counts": {
+        "1": 119341,
+        "0": 56000
+      },
+      "label_prop_malicious": 0.6806223302022916,
+      "attack_cat_counts": {
+        "Normal": 56000,
+        "Generic": 40000,
+        "Exploits": 33393,
+        "Fuzzers": 18184,
+        "DoS": 12264,
+        "Reconnaissance": 10491,
+        "Analysis": 2000,
+        "Backdoor": 1746,
+        "Shellcode": 1133,
+        "Worms": 130
+      },
+      "missing_selected": {
+        "dur": 0,
+        "sbytes": 0,
+        "dbytes": 0,
+        "spkts": 0,
+        "dpkts": 0,
+        "label": 0
+      },
+      "negative_selected": {
+        "dur": 0,
+        "sbytes": 0,
+        "dbytes": 0,
+        "spkts": 0,
+        "dpkts": 0
+      },
+      "zero_dur": 2657,
+      "zero_dbytes": 84282,
+      "dup_rows_excl_id": 67601,
+      "normal_label_mismatch": 0
+    },
+    "test": {
+      "rows": 82332,
+      "label_counts": {
+        "1": 45332,
+        "0": 37000
+      },
+      "label_prop_malicious": 0.5506000097167566,
+      "attack_cat_counts": {
+        "Normal": 37000,
+        "Generic": 18871,
+        "Exploits": 11132,
+        "Fuzzers": 6062,
+        "DoS": 4089,
+        "Reconnaissance": 3496,
+        "Analysis": 677,
+        "Backdoor": 583,
+        "Shellcode": 378,
+        "Worms": 44
+      },
+      "missing_selected": {
+        "dur": 0,
+        "sbytes": 0,
+        "dbytes": 0,
+        "spkts": 0,
+        "dpkts": 0,
+        "label": 0
+      },
+      "negative_selected": {
+        "dur": 0,
+        "sbytes": 0,
+        "dbytes": 0,
+        "spkts": 0,
+        "dpkts": 0
+      },
+      "zero_dur": 950,
+      "zero_dbytes": 36006,
+      "dup_rows_excl_id": 26387,
+      "normal_label_mismatch": 0
+    }
+  }
+}
